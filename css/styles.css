@@ -1,0 +1,21 @@
+h1, h2, h3 {
+    font-family: "Arial", sans-serif;
+    color:rgb(78, 137, 248);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul, ol, p {
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+}
