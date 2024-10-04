@@ -1,6 +1,12 @@
+/* Custom font: Hightower*/
+@font-face{
+    font-family: "Hightower";
+    src: url("../fonts/HTOWERT.TTF")
+}
+
 h1, h2, h3 {
-    font-family: "Arial", sans-serif;
-    color:rgb(78, 137, 248);
+    font-family: "Hightower", serif;
+    color:rgb(131, 93, 7);
 }
 
 h1 {
@@ -18,4 +24,19 @@ h3 {
 ul, ol, p {
     font-size: 20px;
     font-family: "Helvetica", sans-serif;
+}
+
+.landing-title{
+    text-size: 36px;
+    text-align: center;
+    padding: 16px;
+    border: rgb(193, 211, 246) 10px ridge;
+    
+}
+
+.landing-list p {
+    font-family: "Hightower";
+    font-size: 24px;
+    margin: 48px;
+    text-align: center;
 }
